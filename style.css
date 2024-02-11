@@ -172,6 +172,13 @@ section {
   margin: auto 0;
 }
 
+.circular-profile-picture {
+  width: 350px; /* Adjust the width and height as needed */
+  height: 350px;
+  border-radius: 50%; /* This property makes the element circular */
+  overflow: hidden; /* Ensure content within the circle is visible */
+}
+
 .section__text {
   align-self: center;
   text-align: center;
